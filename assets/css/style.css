@@ -1,0 +1,17 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.sec-1.sec-2.sec-3.sec-4 {
+    /* display: flex; */
+    height: 200px;
+    width: 100%;
+    background-color: blue;
+}
