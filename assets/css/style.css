@@ -3,53 +3,109 @@
     padding: 0px;
     box-sizing: border-box;
 }
-
-body{
-    display: flex;
-    flex-direction: column;
-}
-
 header{
+    background-color: skyblue;
+}
+header .container{
     display: flex;
-    background-color: blue;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    align-items: center;
+}
+nav ul {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
+nav ul li a,
+header div a{
+    text-decoration: none;
     color: white;
-    height: 200px;
-    /* justify-content: space-around; */
+}
+header .text-center{
+    width: 75%;
+    margin: 0 auto;
+}
+.logo{
+    height: 30px;
+}
+.text-center{
+    text-align: center;
+}
+.white-btn{
+    padding: 5px 10px;
+    border-radius: 15px;
+    background-color: white;
+    color: black;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.dark-btn{
+    padding: 5px 10px;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
 }
 
-nav{
-    width: 40%;
-    margin-left: calc((100% - 40%)/2);
+.container{
+    width: 80%;
+    margin: 0  auto;
     display: flex;
-    margin-top: 15px;
     justify-content: space-between;
 }
-
-.sec-1{
-    /* display: flex; */
-    height: 200px;
-    width: 100%;
-    background-color: white;
+section{
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
-.sec-2{
-    /* display: flex; */
-    height: 200px;
-    width: 100%;
-    background-color: rgb(201, 199, 199);
+.d-block{
+    display: block;
 }
-.sec-3{
-    /* display: flex; */
-    height: 200px;
-    width: 100%;
-    background-color: white;
+.w-40{
+    width: 40%;
 }
-.sec-4{
-    /* display: flex; */
-    height: 200px;
-    width: 100%;
-    background-color: rgb(201, 199, 199);
+.w-50{
+    width: 50%;
+}
+#sec-4{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.blue-btn{
+    padding: 5px 10px;
+    border-radius: 15px;
+    background-color: skyblue;
+    color: white;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+.bg-grey{
+    background-color: lightgray;
 }
 footer{
-    background-color: rgb(80, 78, 78);
-    height: 200px;
+    background-color: rgb(63, 63, 63);
+}
+.container-footer{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.container-footer ul{
+    list-style-type: none;
+}
+footer .container-footer:first-child{
+    border-bottom: 1px solid skyblue;
 }
